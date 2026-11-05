@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="769e0fff-f64f-4f55-8eff-5c13c9720069">
+  <producedTypes>
+    <objectType typeId="f0f3a3de-fcb7-4535-bb37-435fd645a622" valueTypeId="c141a7af-557d-47bd-8a2a-5001f4fc8164"/>
+    <refType typeId="9e6a222b-eef0-4ddc-aa34-1f91ee7f3023" valueTypeId="416bdd95-f974-4930-b207-a6751d927ce7"/>
+    <selectionType typeId="8fec5625-3a52-4ba8-823a-49d93253e9d0" valueTypeId="dfc9b02d-d0e5-4cde-a52e-7bb5dcb8bd90"/>
+    <listType typeId="4af7c5d8-5a41-4e10-b596-39eb4e650e85" valueTypeId="00fedb41-2f01-4885-822c-c39a2ccde62b"/>
+    <managerType typeId="21ef0e8e-5e15-448b-b703-aa75cc2dcb7d" valueTypeId="5bbaf217-2066-44c3-9ff3-c51c94e8895e"/>
+  </producedTypes>
+  <name>Вычисление</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вычисление</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Вычисление.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Вычисление.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="5be559bf-ff8c-4a5f-ae4b-ec3c99efa734">
+    <name>НаименованиеВычисления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование вычисления</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="9862d628-578f-4d00-882b-a754cab6a704">
+    <producedTypes>
+      <objectType typeId="3cad1723-612c-4fc3-9927-d3e74bf45b52" valueTypeId="57333338-f959-45ea-96bf-f9c57657b69b"/>
+      <rowType typeId="61e11d86-02c7-4a51-b4e7-e1b8742525b1" valueTypeId="f6cb4093-3403-41e1-9b86-0cde9aaac82b"/>
+    </producedTypes>
+    <name>Операции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Операции</value>
+    </synonym>
+    <attributes uuid="9f10c930-9fe3-467e-8652-76d979a91198">
+      <name>Число1</name>
+      <synonym>
+        <key>ru</key>
+        <value>Число1</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>5</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b1ad789d-d4f2-4114-9ffb-f696ea66d8fb">
+      <name>Операция</name>
+      <synonym>
+        <key>ru</key>
+        <value>Операция</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="381d97d5-a31a-4b5f-b2f3-5d647227bca2">
+      <name>Число2</name>
+      <synonym>
+        <key>ru</key>
+        <value>Число2</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>5</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+</mdclass:Catalog>

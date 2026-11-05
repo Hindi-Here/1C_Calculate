@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="44b7f449-32d7-4814-b36f-42c8888e8796">
+  <producedTypes>
+    <refType typeId="073983a8-acf5-4b0c-ba71-b7106df8b3d0" valueTypeId="1bbaec4f-aebd-4970-bf8a-9d39221759d8"/>
+    <listType typeId="4691f522-ffa6-4c32-b82f-66699ed48339" valueTypeId="280e6419-de93-41d3-9e11-622941e515a0"/>
+    <managerType typeId="c23dc184-0405-4609-a97c-4fdf6eb83377" valueTypeId="4c8af4fb-54dd-49a9-9e89-cb8690ec607d"/>
+  </producedTypes>
+  <name>Операции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Операции</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="771f56f5-ec53-473e-968b-4ebce230e298">
+    <name>Сложение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сложение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="46c7e099-5b91-49da-babf-69c9385f67bc">
+    <name>Вычитание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вычитание</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ba3b58f7-aa40-4c3c-bbba-987287b9481c">
+    <name>Умножение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Умножение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e506e65a-8be8-47fb-933a-468f3dfc112e">
+    <name>Деление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Деление</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
